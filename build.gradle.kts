@@ -23,6 +23,7 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("io.rest-assured:rest-assured")
 	implementation("com.google.code.gson:gson:2.9.0")
+
 }
 
 tasks.withType<KotlinCompile> {
